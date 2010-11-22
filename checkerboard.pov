@@ -1,7 +1,7 @@
 #include "colors.inc"
 #include "textures.inc"
 #include "stones1.inc"
-#include "Rocket.pov"
+#include "rocket.pov"
 
 // camera -----------------------------------------------------
 #declare Cam1 =camera {angle 60
