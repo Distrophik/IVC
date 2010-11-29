@@ -2,20 +2,23 @@
 #include "textures.inc"
 #include "stones1.inc"
 #include "rocket.pov"
+#include "sky.pov"
+#include "stones.pov"
+
 
 // camera -----------------------------------------------------
 #declare Cam1 =camera {angle 60
                        location  <14.0 , 8.23 , 10.0*clock>
-                       //right     x*image_width/image_height
+                       rotate <0, 10 * clock, 0>
                        look_at   <0.0 , 2.0 , 0.0>}
 camera{Cam1}
 //Background
 plane{ -x, 50 texture{Starfield}}
 // ground -----------------------------------------------------
 plane{ <0,1,0>, 0 
-      pigment{checker color Black color White}} // end of plane
+      texture{T_Stone24}} // end of plane
 
-light_source{<10, 10, 10*clock> color rgb <1,1,1>}
+light_source{<10, 10, 10> color rgb <1,1,1>}
 //-------------------------------------------------------------
 
 
