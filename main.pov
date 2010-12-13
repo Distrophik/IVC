@@ -11,9 +11,9 @@
 
 // camera -----------------------------------------------------
 #declare Cam1 =camera {angle 60
-                       location  <14.0 , 8.23 , 20.0*clock>
-                       rotate <0, 20 * clock, 0>
-                       look_at   <0.0 , 5.0 , 0.0>}
+                       location  <10, 2 , 20>
+                     //  rotate <0, 0, 0>
+                       look_at   <0 , 0 , 0>}
 camera{Cam1}
 
 // ground -----------------------------------------------------
@@ -24,10 +24,10 @@ light_source{<10, 10, 10> color rgb <1,1,1>}
 //-------------------------------------------------------------
 
 
-object{Rocket}
+//object{Rocket}
 
 object{Astronaut
-	translate <1,1,1>}
+	translate <0,3,0>}
 
 //object{ball
 //        translate<1,sin(20*clock)+1 ,20*clock>} //end of union
