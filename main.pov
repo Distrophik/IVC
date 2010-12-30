@@ -2,7 +2,6 @@
 #include "textures.inc"
 #include "stones1.inc"
 #include "rocket.pov"
-#include "sky.pov"
 #include "stones.inc"
 #include "sky.pov"
 #include "ball.pov"
@@ -24,7 +23,7 @@ light_source{<10, 10, 10> color rgb <1,1,1>}
 //-------------------------------------------------------------
 
 
-//object{Rocket}
+object{Rocket}
 
 object{Astronaut
 	translate <0,3,0>}
