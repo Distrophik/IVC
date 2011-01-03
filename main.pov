@@ -26,7 +26,8 @@ light_source{<10, 10, 10> color rgb <1,1,1>}
 object{Rocket}
 
 object{Astronaut
-	translate <0,3,0>}
+	scale 0.2
+	translate <3, 0.42, 15-(15*clock)>}
 
 //object{ball
 //        translate<1,sin(20*clock)+1 ,20*clock>} //end of union
