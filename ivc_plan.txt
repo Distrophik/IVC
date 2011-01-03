@@ -1,0 +1,27 @@
+Skript:
+lange Credits aus iMovie
+Astronaut geht zu/in Rakete
+Raketenstart mit langem Countdown (Kamera kreist um Rakete)
+Kugel wirft Rakete um
+Kugel rollt weiter
+langen Abspann aus imovie
+
+todo:
+Astronautenmodell und Bewegung	arne
+Umgebung für Rakete	arne
+Kugelbewegung	vitali
+Rauch für Rakete	vitali
+Kollision Kugel-Rakete	markus
+aftermath	Markus
+
+Skalierung um Astronaut = 1
+
+1) Opening Credits
+2) Rakete landet
+3) Langer Schnitt mit Funkgeräuschen
+4) Astronaut läuft zur Rakete
+5) Aus der Sicht des Astronauten wir die Lucke des Raumschiffs geöffnet
+6) Totale Rakete Lucke schließt sich
+7) Orange Ball bounced um die Rakete
+8) Orange Ball hüpft gegen die Rakete
+9) Rakete fällt um und fliegt auf dem Boden oder explodiert
