@@ -17,9 +17,9 @@ aftermath	Markus
 Skalierung um Astronaut = 1
 
 1) Opening Credits
-2) Rakete landet
+2) Rakete landet (Anforderung: Kamerafahrt)
 3) Langer Schnitt mit Funkgeräuschen
-4) Astronaut läuft zur Rakete
+4) Astronaut läuft zur Rakete (Anforderung: Bewegte Gliedmaßen)
 5) Aus der Sicht des Astronauten wir die Lucke des Raumschiffs geöffnet
 6) Totale Rakete Lucke schließt sich
 7) Orange Ball bounced um die Rakete
