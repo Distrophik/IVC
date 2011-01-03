@@ -27,7 +27,7 @@ object{Rocket}
 
 object{Astronaut
 	scale 0.2
-	translate <3,0.42,15-(15*clock)>}
+	translate <3, 0.42, 15-(15*clock)>}
 
 //object{ball
 //        translate<1,sin(20*clock)+1 ,20*clock>} //end of union
