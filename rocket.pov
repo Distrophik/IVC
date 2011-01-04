@@ -21,12 +21,14 @@ translate<0.25,0,0>} // all together somewhat excentric!
 //------------ build the rocket -------------------------------
 #declare Rocket =  union{  //-- 4 engines ---------------------
 object{Engine rotate<0,  0,0> translate<0,0,0>}
-object{Engine rotate<0, 100,0> translate<0,0,0>}
+object{Engine rotate<0,100,0> translate<0,0,0>}
 object{Engine rotate<0,200,0> translate<0,0,0>}
 object{Engine rotate<0,300,0> translate<0,0,0>}
 //----- the body ----------------------------------------------
 cylinder {<0,0,0>,<0,5,0>,0.5 translate<0,0.5,0>
  texture{Candy_Cane}}
+cylinder {<0,0,0>,<0,5,0>,0.4 translate<0,0.5,0>
+ color rgb <1, 1, 1>}
 
 cone{<0,0,0>,0.5,<0,1.5,0>,0.25 translate<0,5+0.5,0>
       texture{Polished_Chrome}}
