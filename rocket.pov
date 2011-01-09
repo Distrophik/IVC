@@ -19,20 +19,30 @@ difference{
  translate<0.22,0,0> texture{Blood_Marble}
 }
 
-translate<0.25,0,0>} // all together somewhat excentric!
+translate<0.25,0,0>}
 
+//Hatch
+#declare Hatch =
+difference{
+        cylinder{<0,2,0>,<0,4.5,0>,0.5 texture{Candy_Cane}}
+        box{<-0.5,1.9,-0.4>,<0.5,4.6,0.5> rotate <0,-180,0>
+                pigment{
+                        image_map {png "images\mp3.png"} scale 0.6}}//color rgb <1, 1, 1>}
+        //rotate <winkel,0,0>
+        //translate<0,2-cos(winkel/180*pi)*2+0.5*clock,-sin(winkel/180*pi)*2+0.5*clock>    
+}
 
-//------------ build the rocket -------------------------------
+//Rocket
 #declare Rocket = 
-union{  
-
-//-- 4 engines ---------------------
+union{
+  
+//Engines
 object{Engine rotate<0,50,0> translate<0,0,0>}
 object{Engine rotate<0,140,0> translate<0,0,0>}
 object{Engine rotate<0,220,0> translate<0,0,0>}
 object{Engine rotate<0,310,0> translate<0,0,0>}
 
-//----- the body ----------------------------------------------
+//Body
 union{
         difference{
                 cylinder{<0,0,0>,<0,5,0>,0.5
@@ -40,25 +50,17 @@ union{
                         texture{Candy_Cane}}
                 box{<-0.3,2,0>,<0.3,4.5,0.5>
                         rotate <0,0,0> 
-                        color rgb <1, 1, 1>}}
-        difference{
-                cylinder{<0,2,0>,<0,4.5,0>,0.5
-                        texture{Candy_Cane}}
-                box{<-0.5,1.9,-0.4>,<0.5,4.6,0.5>
-                        rotate <0,-180,0> 
-                        color rgb <1, 1, 1>}
-                rotate <winkel,0,0>
-                translate<0,2-cos(winkel/180*pi)*2+0.5*clock,-sin(winkel/180*pi)*2+0.5*clock>    
-                }
+                        pigment{
+                        image_map {png "images\mp1.png"} scale 0.6}}}
+                        //color rgb <1, 1, 1>}}
         }
 
+//Nose
 cone{<0,0,0>,0.5,<0,1.5,0>,0.25 translate<0,5+0.5,0>
       texture{Polished_Chrome}}
 
-//-------- the nose on top of the rocket ----------------------
 sphere{<0,0,0>,0.25 scale <1,1.5,1>
        translate<0,5.00+1.50+0.50,0>
        texture{Candy_Cane}}
 
-}//--end of union ---------------------------------------------
-
+}

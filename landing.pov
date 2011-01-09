@@ -5,6 +5,7 @@
 #include "stones.inc"
 #include "sky.pov"
 #include "smoke.pov"
+global_settings { assumed_gamma 1 }
 
 
 // camera -----------------------------------------------------
@@ -24,6 +25,7 @@ light_source{<10, 10, 10> color rgb <1,1,1>}
 #declare RocketWithSmoke = 
 union {
 	object{Rocket}
+	object{Hatch}
 	object{Smoke
 		translate <0.4, -2, 0>}
 }

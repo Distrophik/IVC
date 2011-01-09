@@ -24,7 +24,10 @@ light_source{<10, 10, 10> color rgb <1,1,1>}
 //-------------------------------------------------------------
 
 
-object{Rocket}
+union{
+        object{Rocket}
+        object{Hatch rotate <winkel,0,0> translate<0,2-cos(winkel/180*pi)*2+0.5*clock,-sin(winkel/180*pi)*2+0.5*clock>}}
+
 
 object{Astronaut
 	scale 0.2
