@@ -5,7 +5,8 @@
 #include "stones.inc"
 #include "sky.pov"
 #include "ball.pov"
-#include "astronaut.pov" global_settings { assumed_gamma 1 }
+#include "astronaut.pov"
+global_settings { assumed_gamma 1 }
 
 
 // camera -----------------------------------------------------
