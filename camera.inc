@@ -16,8 +16,8 @@
 #declare SplineCam =
 camera {
 	angle 90
-      location <20,2,20>
-      look_at <0,0,0>
-      //translate <0,0.4,0.4>
-      Spline_Trans (MySpline, clock, y, 0.5, 0.0)
-   }
+	look_at <-0.5,0,1>
+	Spline_Trans (MySpline, clock, y, 0.5, 0.0)
+}
+
+

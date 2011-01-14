@@ -2,3 +2,7 @@
 
 #git under mac
 /opt/local/bin/git
+
+#run povray on cluster http://www.informatik.uni-hamburg.de/RZ/rechner/computecluster.shtml
+ssh ccblade1
+run povray normally
