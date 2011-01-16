@@ -8,11 +8,9 @@
 #include "astronaut_moving.pov" 
 global_settings { assumed_gamma 1 }
 
-#declare TextureList = array[2]
-{
-texture {Lightning1},
-texture {Lightning2}
-}
+#declare TextureList = array[2]{
+        texture {Lightning1},
+        texture {Lightning2}}
 
 
 //camera
