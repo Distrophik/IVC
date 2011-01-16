@@ -19,7 +19,7 @@ global_settings { assumed_gamma 1 }
                         location <0, 8, 20-clock*5>
                         look_at <0, 2.6+clock*2.4, 5-clock*5>
                         #else
-                        location <0, 8, 15>
+                        location <0, 8+1*clock, 15+clock*3>
                         look_at <0, 5, 0>
                         #end}
 camera{Cam1}
@@ -47,12 +47,13 @@ union{
 }         
 
 //ball people
-object{ball
-        scale 5
+object{ball         
         #if(clock<=1)
+        scale 5
         translate <0, -10+clock*10, 0>
         #else
         translate <0, 0, 0>
+        scale 5+sin(10*clock)+0.5
         #if(mod((floor(clock*10)),2)=0)
         texture{TextureList[0]}
         #else
