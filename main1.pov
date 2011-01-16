@@ -10,10 +10,10 @@ global_settings { assumed_gamma 1 }
 
 
 // camera -----------------------------------------------------
-#declare Cam1 =camera {angle 60
-                       location  <15, 3 , 25>
+#declare Cam1 =camera {angle 90
+                       location  <15, 5 , 15>
                      //  rotate <0, 0, 0>
-                       look_at   <0 , 0 , 0>}
+                       look_at   <0 , 3 , 3>}
 camera{Cam1}
 
 // ground -----------------------------------------------------

@@ -1,4 +1,5 @@
 /opt/local/bin/ffmpeg -f image2 -i PATH_TO_IMAGES/%03d.png -b 4000000 movie.mpg
+Bitrate: width * height * 25
 
 #git under mac
 /opt/local/bin/git

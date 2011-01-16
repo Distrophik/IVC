@@ -6,14 +6,15 @@
 #include "sky.pov"
 #include "ball.pov"
 #include "astronaut.pov" 
+#include "astronaut_moving.pov"
 global_settings { assumed_gamma 1 }
 
 
 // camera -----------------------------------------------------
-#declare Cam1 =camera {angle 60
-                       location  <0, 6 , -5>//-15+(clock*7.5)>
-                       rotate <0, 0, 0>
-                       look_at   <0 , 3 , 0>}
+#declare Cam1 =camera {angle 40
+                       location  <0, 1 , -2>//-15+(clock*7.5)>
+                       rotate <0, 50, 0>
+                       look_at   <0 , 0.5 , 0>}
 camera{Cam1}
 
 // ground -----------------------------------------------------
@@ -24,20 +25,11 @@ light_source{<30, 30, 0> color rgb <1,1,1>}
 //-------------------------------------------------------------
 
 
-object{Rocket rotate <0,195,0>}
-light_source{<0, 4.4, 0>
-        color Gray75
-        fade_distance 5
-        fade_power 1 
-        shadowless
 
-}
-object{Astronaut
+
+//object{Astronaut
+//        scale 0.2
+//        translate <0,0.42,0>}
+object{Astronaut_m
         scale 0.2
-        translate <0,2.6,0>}
-
-
-
-//object{ball
-//        translate<1,sin(20*clock)+1 ,20*clock>} //end of union
-//--------------------------------------------------------- end
+        translate <0,0.42,0>}

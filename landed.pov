@@ -23,7 +23,7 @@ camera{SplineCam}
 plane{ <0,1,0>, 0 
       texture{T_Stone24}} // end of plane
 
-light_source{<10, 10, 10> color rgb <1,1,1>}
+light_source{<100, 50, 0> color rgb <1,1,1>}
 //-------------------------------------------------------------
 
 #declare RocketWithSmoke = 
@@ -36,8 +36,6 @@ union {
 	}
 }
 
-object{RocketWithSmoke
-}
-
+object{RocketWithSmoke}
 //--------------------------------------------------------- end
 

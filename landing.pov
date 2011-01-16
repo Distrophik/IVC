@@ -9,7 +9,7 @@ global_settings { assumed_gamma 1 }
 
 
 // camera -----------------------------------------------------
-#declare Cam1 =camera {angle 60
+#declare Cam1 =camera {angle 80
                        location  <10, 2 , 20>
                      //  rotate <0, 0, 0>
                        look_at   <0 , 0 , 0>}
@@ -19,7 +19,7 @@ camera{Cam1}
 plane{ <0,1,0>, 0 
       texture{T_Stone24}} // end of plane
 
-light_source{<10, 10, 10> color rgb <1,1,1>}
+light_source{<100, 50, 0> color rgb <1,1,1>}
 //-------------------------------------------------------------
 
 #declare RocketWithSmoke = 

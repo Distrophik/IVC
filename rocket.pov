@@ -24,12 +24,9 @@ translate<0.25,0,0>}
 //Hatch
 #declare Hatch =
 difference{
-        cylinder{<0,2,0>,<0,4.5,0>,0.5 texture{Candy_Cane}}
-        box{<-0.5,1.9,-0.4>,<0.5,4.6,0.5> rotate <0,-180,0>
-                pigment{
-                        image_map {png "images/mp3.png"} scale 0.6}}//color rgb <1, 1, 1>}
-        //rotate <winkel,0,0>
-        //translate<0,2-cos(winkel/180*pi)*2+0.5*clock,-sin(winkel/180*pi)*2+0.5*clock>    
+        cylinder{<0,2,0>,<0,5,0>,0.5 texture{Candy_Cane}}
+        box{<-0.5,1.9,-0.4>,<0.5,5.1,0.5> rotate <0,-180,0>
+                pigment{image_map {png "images/mp3.png"} scale 0.6}}    
 }
 
 //Rocket
@@ -45,22 +42,20 @@ object{Engine rotate<0,310,0> translate<0,0,0>}
 //Body
 union{
         difference{
-                cylinder{<0,0,0>,<0,5,0>,0.5
+                cylinder{<0,0,0>,<0,6,0>,0.5
                         translate<0,0.5,0>
                         texture{Candy_Cane}}
-                box{<-0.3,2,0>,<0.3,4.5,0.5>
-                        rotate <0,0,0> 
+                box{<-0.3,2,0>,<0.3,5,0.5> 
                         pigment{
                         image_map {png "images/mp1.png"} scale 0.6}}}
-                        //color rgb <1, 1, 1>}}
         }
 
 //Nose
-cone{<0,0,0>,0.5,<0,1.5,0>,0.25 translate<0,5+0.5,0>
+cone{<0,0,0>,0.5,<0,1.5,0>,0.25 translate<0,6.5,0>
       texture{Polished_Chrome}}
 
 sphere{<0,0,0>,0.25 scale <1,1.5,1>
-       translate<0,5.00+1.50+0.50,0>
+       translate<0,8,0>
        texture{Candy_Cane}}
 
 }

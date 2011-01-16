@@ -8,9 +8,9 @@ langen Abspann aus imovie
 
 todo:
 Astronautenmodell und Bewegung	arne
-Umgebung fÃ¼r Rakete	arne
+Umgebung für Rakete	arne
 Kugelbewegung	vitali
-Rauch fÃ¼r Rakete	vitali
+Rauch für Rakete	vitali
 Kollision Kugel-Rakete	markus
 aftermath	Markus
 
@@ -20,11 +20,28 @@ Skalierung um Astronaut = 1
 2) Rakete landet		done
 2a) Kamerafahrt um Rakete	Markus
 2b) Luke šffnet sich Innenansicht	done
-3) Langer Schnitt mit FunkgerÃ¤uschen
+3) Langer Schnitt mit Funkgeräuschen
 4) Astronaut lÃ¤uft zur Rakete
-5) Aus der Sicht des Astronauten wir die Lucke des Raumschiffs geÃ¶ffnet 	bis auf Orientierung done
+5) Aus der Sicht des Astronauten wir die Lucke des Raumschiffs geöffnet 	bis auf Orientierung done
 6a) Astronaut geht in Rakete
-6) Totale Rakete Lucke schlieÃŸt sich
+6) Totale Rakete Lucke schließt sich
 7) Orange Ball bounced um die Rakete	Arne
-8) Orange Ball hÃ¼pft gegen die Rakete	Arne 
+8) Orange Ball hüpft gegen die Rakete	Arne 
 9) Rakete fÃ¤llt um und fliegt auf dem Boden oder explodiert	Arne
+
+--------------------------------Geschichtsverlauf--------------------------------------------------------
+Rendering Order:
+01. landing.pov			(Clock 1) Rakete landet
+02. landed.pov			(Clock 1) Kamerarundfahrt um die Rakete (sollte innen enden)	
+03. step_out.pov 		(Clock 2) Luke geht auf und Astronaut geht raus
+04. walk_around.pov		(Clock 1) Astronaut geht von der Rakete weg
+05. ballppl_appear.pov		(Clock 2) Ballpeople tauchen auf
+06. run_back.pov		(Clock 1) Astronaut rennt zurück zur Rakete
+07. step_in.pov			(Clock 2) Astronaut steigt wieder in die Rakete ein, Luke schließt sich
+08. ballppl_move.pov		(Clock 1) Ballpeople versammeln sich in einem Punkt
+09. ballppl_disappear.pov	(Clock 1) Ballpeople verschwinden wieder
+10. motherball.pov		(Clock 2) Motherball komm raus, umschließt die Rakete und blitzt rum
+---------------------------------------------------------------------------------------------------------
+TODO in Pov-Ray:
+- eine Endszene einfallen lassen
+- Kamerafahrt soll in der Rakete enden. camera{angle 60 location<0, 3.1, 0.3> look_at<0, 2.5, 10>}
