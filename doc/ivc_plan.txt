@@ -49,8 +49,6 @@ Rendering Order:
 07. step_in.pov			(Clock 2) Astronaut steigt wieder in die Rakete ein, Luke schlieﬂt sich
 08. ballppl_move.pov		(Clock 1) Ballpeople versammeln sich in einem Punkt
 09. ballppl_disappear.pov	(Clock 1) Ballpeople verschwinden wieder
-10. motherball.pov		(Clock 2) Motherball komm raus, umschlieﬂt die Rakete und blitzt rum
+10. motherball.pov		(Clock 2) Motherball kommt raus, umschlieﬂt die Rakete und blitzt rum
+11. the_end.pov			(Clock 2) Motherball verschwindet, Rakete ist verkohlt und f‰llt um
 ---------------------------------------------------------------------------------------------------------
-TODO in Pov-Ray:
-- eine Endszene einfallen lassen
-- Kamerafahrt soll in der Rakete enden. camera{angle 60 location<0, 3.1, 0.3> look_at<0, 2.5, 10>}
