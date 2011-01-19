@@ -5,7 +5,8 @@
 #include "stones.inc"
 #include "sky.pov"
 #include "ball.pov"
-#include "astronaut_moving.pov" 
+#include "astronaut_moving.pov"
+#include "astronaut.pov"
 global_settings { assumed_gamma 1 }
 
 
@@ -48,13 +49,15 @@ union{
 }         
 
 //astronaut
+#if(clock<=1)
 object{Astronaut_m
         scale 0.2
-        #if(clock<=1)
-        translate <0, 0.42+2.18*clock, 2.5-2.5*clock>
-        #else
-        translate <0, 2.6, 0>
-        #end}
+        translate <0, 0.42+2.18*clock, 2.5-2.5*clock>}                                      
+#else
+object{Astronaut
+        scale 0.2
+        translate <0, 2.6, 0>}   
+#end             
 
 //ball people
 object{ball
