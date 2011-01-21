@@ -1,0 +1,950 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass scrreprt
+\begin_preamble
+\usepackage{color}
+\usepackage{listings}
+%\usepackage{fancyvrb} 		% More advanced code listing styles
+% Code listings
+\lstset{ %
+language=POV,                % choose the language of the code
+%basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+%numbers=left,                   % where to put the line-numbers
+numberstyle=\color{black}\tiny,      % the size of the fonts that are used for the line-numbers
+stepnumber=1,                   % the step between two line-numbers. If it's 1 each line will be numbered
+numbersep=5pt,                  % how far the line-numbers are from the code
+%backgroundcolor=\color{white},  % choose the background color. You must add \usepackage{color}
+showspaces=false,               % show spaces adding particular underscores
+showstringspaces=false,         % underline spaces within strings
+showtabs=false,                 % show tabs within strings adding particular underscores
+frame=none,	                % adds a frame around the code
+tabsize=2,	                % sets default tabsize to 2 spaces
+captionpos=b,                   % sets the caption-position to bottom
+breaklines=true,                % sets automatic line breaking
+breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+escapeinside={\%*}{*)},          % if you want to add a comment within your code
+%fancyvrb=true	% Enable fancy verbatim code listing
+keywordstyle=\color{blue}\bfseries,
+commentstyle=\color{red}\emph,
+identifierstyle=\color{green}\bfseries,
+stringstyle=\ttfamily,
+}
+\end_preamble
+\use_default_options false
+\language german
+\inputencoding auto
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "A Patched World"
+\pdf_author "Sebastian Rockel"
+\pdf_subject "Animationsfilm mit POV-Ray, IVC 2010"
+\pdf_keywords "Uni Hamburg povray IVC 3d imovie"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_amsmath 2
+\use_esint 0
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\defskip medskip
+\quotes_language german
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Titlehead
+5amann@informatik.uni-hamburg.de
+\begin_inset Newline newline
+\end_inset
+
+5karsten@informatik.uni-hamburg.de
+\begin_inset Newline newline
+\end_inset
+
+8kuppe@informatik.uni-hamburg.de
+\end_layout
+
+\begin_layout Subject
+Übung Interactive Visual Computing 2010/2011
+\end_layout
+
+\begin_layout Title
+Revenge of the ball people
+\end_layout
+
+\begin_layout Author
+Arne Karsten
+\begin_inset Newline newline
+\end_inset
+
+Markus Alexander Kuppe
+\begin_inset Newline newline
+\end_inset
+
+Vitali Amann
+\end_layout
+
+\begin_layout Publishers
+Universität Hamburg, Department Informatik
+\end_layout
+
+\begin_layout Abstract
+Dieser Bericht soll Hintergrundinformation geben zum Film 
+\begin_inset Quotes gld
+\end_inset
+
+Revenge of the ball people
+\begin_inset Quotes grd
+\end_inset
+
+, der mit dem Ray-Tracer POV-Ray erstellt wurde.
+\end_layout
+
+\begin_layout Abstract
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset CommandInset nomencl_print
+LatexCommand printnomenclature
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Einleitung
+\end_layout
+
+\begin_layout Section
+Story/Idee
+\end_layout
+
+\begin_layout Standard
+Zur Story kann man sagen, dass am Anfang des Projekts jedes Team-Mitglied
+ seine eigene sehr interessante Idee gehabt hat.
+ Deswegen haben wir uns entschieden, jedem Handlungsfaden erst einmal freien
+ Lauf zu lassen.
+ Gegen Ende des Projekts gab es dann doch einige Koordination der Szenen,
+ wie man besonders an der Enten-Szene sehen kann.
+\end_layout
+
+\begin_layout Section
+Titel
+\end_layout
+
+\begin_layout Standard
+Ein Titel sollte unserer Meinung nach den Charakter des Films am Besten
+ wiedergeben.
+ Deshalb 
+\begin_inset Quotes gld
+\end_inset
+
+Eine geflickte Welt
+\begin_inset Quotes grd
+\end_inset
+
+ (
+\emph on
+A Patched World
+\emph default
+), als Anspielung an die Szenen (
+\begin_inset Quotes gld
+\end_inset
+
+Flicken
+\begin_inset Quotes grd
+\end_inset
+
+), die den Film ausmachen.
+ Nichtsdestotrotz wurde bei der Zusammenfügung, dem Schneiden des Films,
+ sehr darauf geachtet aus allen verschiedenen Szenen einen möglichst harmonische
+n Gesamt-Handlungsfaden zu kreieren.
+\end_layout
+
+\begin_layout Standard
+In den folgenden Kapiteln werden nun die Hauptszenen des Films erläutert.
+\end_layout
+
+\begin_layout Section
+Charaktere/Objekte
+\end_layout
+
+\begin_layout Standard
+Im Folgenden werden die maßgeblichen Objekte des Films inhaltlich als auch
+ technisch erläutert.
+\end_layout
+
+\begin_layout Subsection
+Rakete
+\end_layout
+
+\begin_layout Standard
+Das Zentrum nahezu aller Szenes des Films bildet die rot-weiße Rakete (siehe
+ Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Fig:Rakete"
+
+\end_inset
+
+).
+ Sie stellt das Gefährt dar, mit dem der Astronaut den Planeten der Ballpeople
+ erreicht und mit dem er den gescheiterten Fluchtversuch unternimmt.
+ Zum Ende des Films wird die Rakete durch die Ballpeople zerstört und stürzt
+ zur Seite.
+\begin_inset Newline newline
+\end_inset
+
+Die Optik der Rakete zeigt Parallelen zur Illustration der Mond-Rakete aus
+ 
+\begin_inset Quotes gld
+\end_inset
+
+Tim und Struppi - Reise zum Mond
+\begin_inset Quotes grd
+\end_inset
+
+.
+ Die Inspiration für den POV-Ray Code hingegen entstammt der Harun-Rakete
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "yohici2010"
+
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+Während der Landung der Rakete wurde zur authentischeren Gestaltung Rauch
+ an den Triebwerken animiert.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename rocket.png
+	lyxscale 30
+	height 25theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Rakete
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Fig:Rakete"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Texturen der Raketen-Klappe
+\end_layout
+
+\begin_layout Standard
+Die Lucke der Rakete, durch die der Astronaut das Gefährt verlässt und betritt,
+ wurde als Differenz in die Rakete 
+\begin_inset Quotes gld
+\end_inset
+
+hineingeschnitten
+\begin_inset Quotes grd
+\end_inset
+
+.
+ Als Oberfläche dient ein Bild eines Fussboden-Segmentes (siehe Abbildung
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Fig:TextureRampe"
+
+\end_inset
+
+) und erfüllt damit die Anforderung, ein Bild im Film zu verarbeiten.
+ 
+\begin_inset Float algorithm
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "numbers=left"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+//Hatch 
+\end_layout
+
+\begin_layout Plain Layout
+
+#declare Hatch = 
+\end_layout
+
+\begin_layout Plain Layout
+
+difference{
+\end_layout
+
+\begin_layout Plain Layout
+
+ cylinder{
+\end_layout
+
+\begin_layout Plain Layout
+
+   <0,2,0>,<0,5,0>,0.5 
+\end_layout
+
+\begin_layout Plain Layout
+
+   texture{Candy_Cane}
+\end_layout
+
+\begin_layout Plain Layout
+
+ }
+\end_layout
+
+\begin_layout Plain Layout
+
+ box{
+\end_layout
+
+\begin_layout Plain Layout
+
+   <-0.5,1.9,-0.4>,<0.5,5.1,0.5> 
+\end_layout
+
+\begin_layout Plain Layout
+
+   rotate <0,-180,0>
+\end_layout
+
+\begin_layout Plain Layout
+
+   pigment{
+\end_layout
+
+\begin_layout Plain Layout
+
+     image_map {png "images/mp3.png"} 
+\end_layout
+
+\begin_layout Plain Layout
+
+     scale 0.6}
+\end_layout
+
+\begin_layout Plain Layout
+
+ }     
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Raketen-Lucke
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Alg:Hatch"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/markus/Desktop/gitroot/IVC/images/mp3.png
+	lyxscale 30
+	height 25theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Texture der Raketen-Rampe
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Fig:TextureRampe"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Kamerafahrt um die Rakete
+\end_layout
+
+\begin_layout Standard
+Die Kamerafahrt wurde mit Hilfe eines kubischen Splines realisiert, das
+ im Listing 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Alg:CubicSpline"
+
+\end_inset
+
+ wiedergegeben ist.
+ Das Spline setzt sich dabei aus 11 Knoten zusammen.
+ Die Wahl fiel auf einen kubischen Spline, da dadurch ruckartige Bewegungen
+ bei der Kamerafahrt ausgeschlossen werden und Geschwindigkeitsänderungen
+ nur sanft vollzogen werden.
+ Eine Besonderheit kubischer Splines in POV-Ray ist, dass der erste als
+ auch letzte Knoten nicht als Start- bzw.
+ Endpunkt gewertet werden, sondern nur als Tangente auf den Endpunkten.
+ Daher liegen die Indizes dieser beiden Knoten ausserhalb des durch 
+\emph on
+SplineTrans 
+\emph default
+genutzten Bereichs.
+ 
+\begin_inset Float algorithm
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "numbers=left"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+#include "math.inc"
+\end_layout
+
+\begin_layout Plain Layout
+
+#include "transforms.inc" 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+#declare MySpline =
+\end_layout
+
+\begin_layout Plain Layout
+
+ spline { cubic_spline
+\end_layout
+
+\begin_layout Plain Layout
+
+   -0.1, <10,  2,    20> //control point
+\end_layout
+
+\begin_layout Plain Layout
+
+    0.0, <10,  2,    20> // start point
+\end_layout
+
+\begin_layout Plain Layout
+
+    0.1, <13,  2.2,  15>
+\end_layout
+
+\begin_layout Plain Layout
+
+    0.2, <16,  2.3,  5>
+\end_layout
+
+\begin_layout Plain Layout
+
+    0.3, <13,  2.4, -5>
+\end_layout
+
+\begin_layout Plain Layout
+
+    0.4, < 9,  2.5, -10>
+\end_layout
+
+\begin_layout Plain Layout
+
+    0.5, <-6,  2.6, -8>
+\end_layout
+
+\begin_layout Plain Layout
+
+    0.6, <-12, 2.7,  0>
+\end_layout
+
+\begin_layout Plain Layout
+
+    0.7, <-8,  2.8,  5>
+\end_layout
+
+\begin_layout Plain Layout
+
+    0.8, <-4,  2.9,  4>
+\end_layout
+
+\begin_layout Plain Layout
+
+    0.9, <-2,  3.0,  0>
+\end_layout
+
+\begin_layout Plain Layout
+
+    1.0, < 0 , 3.1,  0.3> // end point
+\end_layout
+
+\begin_layout Plain Layout
+
+    1.1, < 0 , 3.1,  0.3> // control point 
+\end_layout
+
+\begin_layout Plain Layout
+
+ }
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+#declare SplineCam = camera {
+\end_layout
+
+\begin_layout Plain Layout
+
+	angle 80-clock*20
+\end_layout
+
+\begin_layout Plain Layout
+
+	look_at <0, 2.5, 10>
+\end_layout
+
+\begin_layout Plain Layout
+
+	Spline_Trans (MySpline, clock, y, 0.5, 0.0) } 
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Kamerafahrt-Deklaration
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Alg:CubicSpline"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Astronaut 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Inspiration für den Charakter, Gründe für die Gestaltung
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Bewegungsmodell 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Sinus-/Cos-Funktionen erklären, die Arme und Beine animieren
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Ball People 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Warum orange ball people?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Bewegungsmodell 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Eingesetzte Exponentialfunktionen erläutern
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Szenerie
+\end_layout
+
+\begin_layout Standard
+Als Landschaft bzw.
+ Szenerie wurde eine karge und ausschließlich glatte Planetenoberfläche
+ gewählt.
+ Die massgebliche Begründung liegt in der sonst schlicht unmöglichen evolutionär
+en Entwicklung der Planeten-Bewohner (Ball People).
+ Bälle rollen/springen nun einmal am Besten auf glatten Oberflächen ohne
+ Hindernissen und konnten sich demnach an die Spitze der Evolution setzen.
+ Auf dem Planeten der Ball People herrscht der Darwinismus und kein Kreationismu
+s.
+\end_layout
+
+\begin_layout Section
+Verwendete Werkzeuge
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zweck
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+POV-Ray v3.7 RC2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ray-Tracer
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GarageBand
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vertonung
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+iMovie
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Schnittprogramm
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Verwendete Werkzeuge
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Tab:Tools"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Schnitt mit iMovie
+\end_layout
+
+\begin_layout Section
+Vertonung mit GarageBand
+\end_layout
+
+\begin_layout Section
+Anmerkungen zum Rendering auf den Blade-Servern des Rechenzentrums
+\end_layout
+
+\begin_layout Standard
+Die Mehrzahl der Szenen wurde auf den durch das Informatik-Rechenzentrum
+ zur Verfügung gestellten Blade-Servern gerendert.
+ Dabei variierte die benötigte Rechen-Zeit stark in Abhängigkeit vom Umfang
+ der Szenen.
+ Die einfachen Szenen zu Beginn des Film konnten in jeweils unter einer
+ Stunde berechnet werden.
+ Für die umfangreichen Szenen am Ende benötigten die Blade-Server akkumuliert
+ hingegen mehr als einen Tag.
+\begin_inset Newline newline
+\end_inset
+
+Für zukünftige Projekte sei die Anmerkung erlaubt, dass die bereitgestellte
+ POV-Ray Version entweder auf den aktuellen Stand gehalten wird oder ausgiebig
+ getestet wird.
+ Die vorinstallierte Version POV-Ray v3.7 beta 41 zeigt einen reproduzierbaren
+ Fehler in Zusammenhang mit einer älteren Boost-Bibliothek, was die Nutzung
+ unmöglich machte.
+ Daher musste eine eigene, aus dem aktuellen Release-Candidate und gegen
+ eine neue Boost-Version statisch gelinkte Version selbst übersetzt werden
+ und auf die Blade-Server hochgeladen werden.
+ Damit war dann eine ununterbrochene Berechnung ohne Segmentation Fault
+ aller Szenen möglich.
+ Ferner wäre es in den Tagen vor der Abgabe wunschenswert, wenn Reboots
+ der Blade-Server an die Job-Inhaber zum Zeitpunkt der Reboots mitgeteilt
+ werden.
+ Ansonsten kann es geschehen, dass ein abgebrochenes Rendering für mehrere
+ Stunden unbemerkt bleibt.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "bibtex"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
