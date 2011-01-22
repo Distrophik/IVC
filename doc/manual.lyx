@@ -101,19 +101,19 @@ stringstyle=\ttfamily,
 \end_layout
 
 \begin_layout Title
-Revenge of the ball people
+Revenge of the Ball People
 \end_layout
 
 \begin_layout Author
+Vitali Amann
+\begin_inset Newline newline
+\end_inset
+
 Arne Karsten
 \begin_inset Newline newline
 \end_inset
 
 Markus Alexander Kuppe
-\begin_inset Newline newline
-\end_inset
-
-Vitali Amann
 \end_layout
 
 \begin_layout Publishers
@@ -125,7 +125,7 @@ Dieser Bericht soll Hintergrundinformation geben zum Film
 \begin_inset Quotes gld
 \end_inset
 
-Revenge of the ball people
+Revenge of the Ball People
 \begin_inset Quotes grd
 \end_inset
 
@@ -180,12 +180,25 @@ Story/Idee
 \end_layout
 
 \begin_layout Standard
-Zur Story kann man sagen, dass am Anfang des Projekts jedes Team-Mitglied
- seine eigene sehr interessante Idee gehabt hat.
- Deswegen haben wir uns entschieden, jedem Handlungsfaden erst einmal freien
- Lauf zu lassen.
- Gegen Ende des Projekts gab es dann doch einige Koordination der Szenen,
- wie man besonders an der Enten-Szene sehen kann.
+In der ersten Übungsstunde hatten wir uns überlegt, einen Astronauten, einen
+ Raketenstart, den Flug einer Rakete durch den Weltraum, vorbei an verschiedenen
+ Himmelskörpern und eventuell die Landung auf einem anderen Planeten als
+ Verlauf unseres Filmes zu animieren.
+ Während des weiteren Verlaufes der Übungsphase hat sich diese Grundidee
+ verändert und weiterentwickelt.
+ Der erste Umbruch geschah, bei unserem ersten Versuch in POV-Ray einen
+ Astronauten zu modellieren.
+ Wir begannen mit einer Kugel und legten eine beliegige Textur (in unserem
+ Fall orange_glass) darauf, um eine Art Kopf zu modellieren.
+ Stattdessen kam uns die Idee, statt eines Raketenstarts, eine Kugel die
+ Rakete kurz vor dem eigentlichen Start umstossen zu lassen.
+ Die Ballpeople waren geboren.
+ Und aus dieser Idee entwickelte sich letztendlich der nun gerenderte Film.
+ Eine Rakete landet auf einem Planeten, ein Astronaut steigt aus, um den
+ Planeten zu erkunden, nur um von den wenig später erscheinenden Ballpeople
+ überrascht zu werden.
+ Er läuft zurück zu seinr Rakete, um zu fliehen, aber bevor er starten kann
+ erreichen die Ballpeople die Rakete und zerstören diese.
 \end_layout
 
 \begin_layout Section
@@ -193,36 +206,15 @@ Titel
 \end_layout
 
 \begin_layout Standard
-Ein Titel sollte unserer Meinung nach den Charakter des Films am Besten
- wiedergeben.
- Deshalb 
-\begin_inset Quotes gld
-\end_inset
-
-Eine geflickte Welt
-\begin_inset Quotes grd
-\end_inset
-
- (
-\emph on
-A Patched World
-\emph default
-), als Anspielung an die Szenen (
-\begin_inset Quotes gld
-\end_inset
-
-Flicken
-\begin_inset Quotes grd
-\end_inset
-
-), die den Film ausmachen.
- Nichtsdestotrotz wurde bei der Zusammenfügung, dem Schneiden des Films,
- sehr darauf geachtet aus allen verschiedenen Szenen einen möglichst harmonische
-n Gesamt-Handlungsfaden zu kreieren.
-\end_layout
-
-\begin_layout Standard
-In den folgenden Kapiteln werden nun die Hauptszenen des Films erläutert.
+Der Titel ist eine klare Anspielung auf die Titel der Star Wars Filme, wie
+ Revenge of the Sith und Return of the Jedi.
+ Dies passt auch gut zum Science-Fiction Genre unseres Films.
+ Auch unser Film kann als der letzte Teil einer Trilogie gesehen werden,
+ der Zuschauer weiß aber, wie in einer Kurzgeschichte nicht, was zuvor geschehen
+ ist und kann dieses selbst interpretieren.
+ Der Titel könnte darauf anspielen, dass vielleicht sogar die Ballpeople
+ die Helden unserer Geschichte sein könnten.
+ Die Interpretation ist aber rein dem Zuschauer überlassen.
 \end_layout
 
 \begin_layout Section
@@ -894,11 +886,37 @@ name "Tab:Tools"
 \end_layout
 
 \begin_layout Section
-Schnitt mit iMovie
+Nachbearbeitung mit iMovie und GarageBand
 \end_layout
 
-\begin_layout Section
-Vertonung mit GarageBand
+\begin_layout Standard
+Nachdem wir unsere gewünschten Szenen auf verschiedenen Rechnern in unserer
+ Wunschauflösung von 1280*1024 gerendert hatten, machten wir uns an die
+ Nachbearbeitung mithilfe der Macrechner des Informatikums.
+ Zum schneiden und einfügen von Toneffekten haben wir iMovie verwendet und
+ die Hintergrundmusik haben wir mit GarageBand eingespielt.
+ Die Hintergrundmusik ist eine 30 Sekunden lange Abfolge von Klängen aus
+ einem Syntheziser, die wir dann wiederholen, bis der Film endet.
+ Ziel der Musik ist es eine ominöse Grundstimmung zu erzeugen.
+\begin_inset Newline newline
+\end_inset
+
+In iMovie haben wir zunächst alle unsere gerenderten Szenen hintereinander
+ gehängt und an passenden Stellen vorgefertigte Übergänge eingebaut.
+ Szenen die zu lang waren haben wir gekürzt, wie das einsteigen des Astronauten
+ in die Rakete.
+ Soweit es uns möglich war haben wir auch Geräusche eingefügt.
+ Allerdings war es sehr schwer passnde Soundeffekte zu finden und deshalb
+ sind nur Teile des Filmes mit Geräuschen versehen, beispielsweise das Öffnen
+ der Rampe und das Blubbern der Ballpeople.
+ Die letzte Szene, das Umfallen der Rakete haben wir mit iMovie verschnellert,
+ damit es realischtischer aussieht.
+ Wir enden auf einem Standbild der zerstörten Raket.
+\begin_inset Newline newline
+\end_inset
+
+Des Weiteren haben wir einen Titel eingeblendet und einen kurzen Abspann
+ eingefügt.
 \end_layout
 
 \begin_layout Section
