@@ -11,7 +11,7 @@
                 texture {Gold_Nugget}}
         }
         
-        //Torso
+    //Torso
 	sphere { <0,0,0>, 1.0
 	        scale x*0.75
 	        scale z*0.75
