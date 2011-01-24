@@ -1,5 +1,5 @@
-#LyX file created by tex2lyx 1.6.8
-\lyxformat 264
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
 \begin_document
 \begin_header
 \textclass scrreprt
@@ -33,9 +33,8 @@ stringstyle=\ttfamily,
 }
 
 \makeatother
-
-
 \end_preamble
+\use_default_options false
 \language german
 \inputencoding latin9
 \font_roman times
@@ -46,9 +45,11 @@ stringstyle=\ttfamily,
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
+
 \graphics default
 \paperfontsize default
 \spacing single
+\use_hyperref false
 \papersize default
 \use_geometry true
 \use_amsmath 2
@@ -66,46 +67,50 @@ stringstyle=\ttfamily,
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
+\author "" 
 \end_header
 
 \begin_body
 
 \begin_layout Titlehead
-
 5amann@informatik.uni-hamburg.de
-\newline
+\begin_inset Newline newline
+\end_inset
+
  5karsten@informatik.uni-hamburg.de
-\newline
+\begin_inset Newline newline
+\end_inset
+
  8kuppe@informatik.uni-hamburg.de
 \end_layout
 
 \begin_layout Subject
-
 Übung Interactive Visual Computing 2010/2011
 \end_layout
 
 \begin_layout Title
-
 Revenge of the Ballpeople
 \end_layout
 
 \begin_layout Author
-
 Vitali Amann
-\newline
+\begin_inset Newline newline
+\end_inset
+
  Arne Karsten
-\newline
+\begin_inset Newline newline
+\end_inset
+
  Markus Alexander Kuppe
 \end_layout
 
 \begin_layout Publishers
-
 Universität Hamburg, Department Informatik
 \end_layout
 
 \begin_layout Abstract
-
-Dieser Bericht soll Hintergrundinformation geben zum Film ,,Revenge of the Ballpeople
+Dieser Bericht soll Hintergrundinformation geben zum Film ,,Revenge of the
+ Ballpeople
 \begin_inset Quotes eld
 \end_inset
 
@@ -113,9 +118,8 @@ Dieser Bericht soll Hintergrundinformation geben zum Film ,,Revenge of the Ballp
 \end_layout
 
 \begin_layout Abstract
-
-
-\begin_inset LatexCommand tableofcontents
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
 
 \end_inset
 
@@ -123,81 +127,110 @@ Dieser Bericht soll Hintergrundinformation geben zum Film ,,Revenge of the Ballp
 \end_layout
 
 \begin_layout Chapter
-
 Einleitung
 \end_layout
 
 \begin_layout Section
-
 Story/Idee
 \end_layout
 
 \begin_layout Standard
-
-In der ersten Übungsstunde hatten wir uns überlegt, einen Astronauten, einen Raketenstart, den Flug einer Rakete durch den Weltraum, vorbei an verschiedenen Himmelskörpern und eventuell die Landung auf einem anderen Planeten als Verlauf unseres Filmes zu animieren. Während des weiteren Verlaufes der Übungsphase hat sich diese Grundidee verändert und weiterentwickelt. Der erste Umbruch geschah, bei unserem ersten Versuch in POV-Ray einen Astronauten zu modellieren. Wir begannen mit einer Kugel und legten eine beliegige Textur (in unserem Fall orange_glass) darauf, um eine Art Kopf zu modellieren. Stattdessen kam uns die Idee, statt eines Raketenstarts, eine Kugel die Rakete kurz vor dem eigentlichen Start umstossen zu lassen. Die Ballpeople waren geboren. Und aus dieser Idee entwickelte sich letztendlich der nun gerenderte Film. Eine Rakete landet auf einem Planeten, ein Astronaut steigt aus, um den Planeten zu erkunden, nur um von den wenig später erscheinenden Ballpeople überrascht zu werden. Er läuft zurück zu seinr Rakete, um zu fliehen, aber bevor er starten kann erreichen die Ballpeople die Rakete und zerstören diese.
+In der ersten Übungsstunde hatten wir uns überlegt, einen Astronauten, einen
+ Raketenstart, den Flug einer Rakete durch den Weltraum, vorbei an verschiedenen
+ Himmelskörpern und eventuell die Landung auf einem anderen Planeten als
+ Verlauf unseres Filmes zu animieren.
+ Während des weiteren Verlaufes der Übungsphase hat sich diese Grundidee
+ verändert und weiterentwickelt.
+ Der erste Umbruch geschah, bei unserem ersten Versuch in POV-Ray einen
+ Astronauten zu modellieren.
+ Wir begannen mit einer Kugel und legten eine beliegige Textur (in unserem
+ Fall orange_glass) darauf, um eine Art Kopf zu modellieren.
+ Stattdessen kam uns die Idee, statt eines Raketenstarts, eine Kugel die
+ Rakete kurz vor dem eigentlichen Start umstossen zu lassen.
+ Die Ballpeople waren geboren.
+ Und aus dieser Idee entwickelte sich letztendlich der nun gerenderte Film.
+ Eine Rakete landet auf einem Planeten, ein Astronaut steigt aus, um den
+ Planeten zu erkunden, nur um von den wenig später erscheinenden Ballpeople
+ überrascht zu werden.
+ Er läuft zurück zu seiner Rakete, um zu fliehen, aber bevor er starten
+ kann erreichen die Ballpeople die Rakete und zerstören diese.
 \end_layout
 
 \begin_layout Section
-
 Titel
 \end_layout
 
 \begin_layout Standard
-
-Der Titel ist eine klare Anspielung auf die Titel der Star Wars Filme, wie Revenge of the Sith und Return of the Jedi. Dies passt auch gut zum Science-Fiction Genre unseres Films. Auch unser Film kann als der letzte Teil einer Trilogie gesehen werden, der Zuschauer weiß aber, wie in einer Kurzgeschichte nicht, was zuvor geschehen ist und kann dieses selbst interpretieren. Der Titel könnte darauf anspielen, dass vielleicht sogar die Ballpeople die Helden unserer Geschichte sein könnten. Die Interpretation ist aber rein dem Zuschauer überlassen.
+Der Titel ist eine klare Anspielung auf die Titel der Star Wars Filme, wie
+ Revenge of the Sith und Return of the Jedi.
+ Dies passt auch gut zum Science-Fiction Genre unseres Films.
+ Auch unser Film kann als der letzte Teil einer Trilogie gesehen werden,
+ der Zuschauer weiß aber, wie in einer Kurzgeschichte nicht, was zuvor geschehen
+ ist und kann dieses selbst interpretieren.
+ Der Titel könnte darauf anspielen, dass vielleicht sogar die Ballpeople
+ die Helden unserer Geschichte sein könnten.
+ Die Interpretation ist aber rein dem Zuschauer überlassen.
 \end_layout
 
 \begin_layout Section
-
 Charaktere/Objekte
 \end_layout
 
 \begin_layout Standard
-
-Im Folgenden werden die maßgeblichen Objekte des Films inhaltlich als auch technisch erläutert.
+Im Folgenden werden die maßgeblichen Objekte des Films inhaltlich als auch
+ technisch erläutert.
 \end_layout
 
 \begin_layout Subsection
-
 Rakete
 \end_layout
 
 \begin_layout Standard
-
-Das Zentrum nahezu aller Szenes des Films bildet die rot-weiße Rakete (siehe Abbildung 
-\begin_inset LatexCommand ref
+Das Zentrum nahezu aller Szenes des Films bildet die rot-weiße Rakete (siehe
+ Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
 reference "Fig:Rakete"
 
 \end_inset
 
-). Sie stellt das Gefährt dar, mit dem der Astronaut den Planeten der Ballpeople erreicht und mit dem er den gescheiterten Fluchtversuch unternimmt. Zum Ende des Films wird die Rakete durch die Ballpeople zerstört und stürzt zur Seite.
-\newline
- Die Optik der Rakete zeigt Parallelen zur Illustration der Mond-Rakete aus ,,Tim und Struppi - Reise zum Mond
+).
+ Sie stellt das Gefährt dar, mit dem der Astronaut den Planeten der Ballpeople
+ erreicht und mit dem er den gescheiterten Fluchtversuch unternimmt.
+ Zum Ende des Films wird die Rakete durch die Ballpeople zerstört und stürzt
+ zur Seite.
+\begin_inset Newline newline
+\end_inset
+
+ Die Optik der Rakete zeigt Parallelen zur Illustration der Mond-Rakete
+ aus ,,Tim und Struppi - Reise zum Mond
 \begin_inset Quotes eld
 \end_inset
 
-. Die Inspiration für den POV-Ray Code hingegen entstammt der Harun-Rakete 
-\begin_inset LatexCommand citep
-after ""
-before ""
+.
+ Die Inspiration für den POV-Ray Code hingegen entstammt der Harun-Rakete
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
 key "yohici2010"
 
 \end_inset
 
 .
-\newline
- Während der Landung der Rakete wurde zur authentischeren Gestaltung Rauch an den Triebwerken animiert. 
+\begin_inset Newline newline
+\end_inset
+
+ Während der Landung der Rakete wurde zur authentischeren Gestaltung Rauch
+ an den Triebwerken animiert.
+ 
 \begin_inset Float figure
 wide false
 sideways false
 status open
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 \align center
-
-
-\begin_inset Graphics 
+\begin_inset Graphics
 	filename rocket.eps
 	height 25theight%
 
@@ -206,23 +239,21 @@ status open
  
 \end_layout
 
-\begin_layout Standard
-
-
+\begin_layout Plain Layout
 \begin_inset Caption
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Rakete
 \end_layout
 
 \end_inset
 
+
 \end_layout
 
-\begin_layout Standard
-
-
-\begin_inset LatexCommand label
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
 name "Fig:Rakete"
 
 \end_inset
@@ -236,36 +267,36 @@ name "Fig:Rakete"
 \end_layout
 
 \begin_layout Subsubsection
-
 Texturen der Raketen-Klappe
 \end_layout
 
 \begin_layout Standard
-
-Die Lucke der Rakete, durch die der Astronaut das Gefährt verlässt und betritt, wurde als Differenz in die Rakete ,,hineingeschnitten
+Die Luke der Rakete, durch die der Astronaut das Gefährt verlässt und betritt,
+ wurde als Differenz in die Rakete ,,hineingeschnitten
 \begin_inset Quotes eld
 \end_inset
 
-. Als Oberfläche dient ein Bild eines Fussboden-Segmentes (siehe Abbildung 
-\begin_inset LatexCommand ref
+.
+ Als Oberfläche dient ein Bild eines Fussboden-Segmentes (siehe Abbildung
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
 reference "Fig:TextureRampe"
 
 \end_inset
 
-) und erfüllt damit die Anforderung, ein Bild im Film zu verarbeiten. 
+) und erfüllt damit die Anforderung, ein Bild im Film zu verarbeiten.
+ 
 \begin_inset Float algorithm
 wide false
 sideways false
 status open
 
-
-\begin_layout Standard
-
-
+\begin_layout Plain Layout
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -278,7 +309,7 @@ begin{lstlisting}
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -289,7 +320,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -300,7 +331,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -311,7 +342,7 @@ CandyCane
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -322,7 +353,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -333,7 +364,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -344,7 +375,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -355,7 +386,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -366,7 +397,7 @@ png "images/mp3.png"
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -377,7 +408,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -388,7 +419,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -399,7 +430,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -410,7 +441,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -422,23 +453,21 @@ end{lstlisting}
 
 \end_layout
 
-\begin_layout Standard
-
-
+\begin_layout Plain Layout
 \begin_inset Caption
 
-\begin_layout Standard
-Raketen-Lucke
+\begin_layout Plain Layout
+Raketen-Luke
 \end_layout
 
 \end_inset
 
+
 \end_layout
 
-\begin_layout Standard
-
-
-\begin_inset LatexCommand label
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
 name "Alg:Hatch"
 
 \end_inset
@@ -452,19 +481,14 @@ name "Alg:Hatch"
 \end_layout
 
 \begin_layout Standard
-
-
 \begin_inset Float figure
 wide false
 sideways false
 status open
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 \align center
-
-
-\begin_inset Graphics 
+\begin_inset Graphics
 	filename mp3.png
 	height 25theight%
 
@@ -473,23 +497,21 @@ status open
  
 \end_layout
 
-\begin_layout Standard
-
-
+\begin_layout Plain Layout
 \begin_inset Caption
 
-\begin_layout Standard
-Texture der Raketen-Rampe
+\begin_layout Plain Layout
+Textur der Raketen-Rampe
 \end_layout
 
 \end_inset
 
+
 \end_layout
 
-\begin_layout Standard
-
-
-\begin_inset LatexCommand label
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
 name "Fig:TextureRampe"
 
 \end_inset
@@ -503,36 +525,42 @@ name "Fig:TextureRampe"
 \end_layout
 
 \begin_layout Subsubsection
-
 Kamerafahrt um die Rakete
 \end_layout
 
 \begin_layout Standard
-
-Die Kamerafahrt wurde mit Hilfe eines kubischen Splines realisiert, das im Listing 
-\begin_inset LatexCommand ref
+Die Kamerafahrt wurde mit Hilfe eines kubischen Splines realisiert, das
+ im Listing 
+\begin_inset CommandInset ref
+LatexCommand ref
 reference "Alg:CubicSpline"
 
 \end_inset
 
- wiedergegeben ist. Das Spline setzt sich dabei aus 11 Knoten zusammen. Die Wahl fiel auf einen kubischen Spline, da dadurch ruckartige Bewegungen bei der Kamerafahrt ausgeschlossen werden und Geschwindigkeitsänderungen nur sanft vollzogen werden. Eine Besonderheit kubischer Splines in POV-Ray ist, dass der erste als auch letzte Knoten nicht als Start- bzw. Endpunkt gewertet werden, sondern nur als Tangente auf den Endpunkten. Daher liegen die Indizes dieser beiden Knoten ausserhalb des durch 
+ wiedergegeben ist.
+ Das Spline setzt sich dabei aus 11 Knoten zusammen.
+ Die Wahl fiel auf einen kubischen Spline, weil dadurch ruckartige Bewegungen
+ bei der Kamerafahrt ausgeschlossen werden und Geschwindigkeitsänderungen
+ nur sanft vollzogen werden.
+ Eine Besonderheit kubischer Splines in POV-Ray ist, dass der erste, als
+ auch letzte Knoten nicht als Start- bzw.
+ Endpunkt gewertet werden, sondern nur als Tangente auf den Endpunkten.
+ Daher liegen die Indizes dieser beiden Knoten ausserhalb des durch 
 \emph on
 SplineTrans 
 \emph default
-genutzten Bereichs. 
+genutzten Bereichs.
+ 
 \begin_inset Float algorithm
 wide false
 sideways false
 status open
 
-
-\begin_layout Standard
-
-
+\begin_layout Plain Layout
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -544,24 +572,27 @@ begin{lstlisting}
 [numbers=left] #include "math.inc" #include "transforms.inc"
 \end_layout
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 #declare MySpline = spline 
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
 
 \end_inset
 
- cubicspline -0.1, <10, 2, 20> //control point 0.0, <10, 2, 20> // start point 0.1, <13, 2.2, 15> 0.2, <16, 2.3, 5> 0.3, <13, 2.4, -5> 0.4, < 9, 2.5, -10> 0.5, <-6, 2.6, -8> 0.6, <-12, 2.7, 0> 0.7, <-8, 2.8, 5> 0.8, <-4, 2.9, 4> 0.9, <-2, 3.0, 0> 1.0, < 0 , 3.1, 0.3> // end point 1.1, < 0 , 3.1, 0.3> // control point 
+ cubicspline -0.1, <10, 2, 20> //control point 0.0, <10, 2, 20> // start point
+ 0.1, <13, 2.2, 15> 0.2, <16, 2.3, 5> 0.3, <13, 2.4, -5> 0.4, < 9, 2.5, -10> 0.5,
+ <-6, 2.6, -8> 0.6, <-12, 2.7, 0> 0.7, <-8, 2.8, 5> 0.8, <-4, 2.9, 4> 0.9, <-2,
+ 3.0, 0> 1.0, < 0 , 3.1, 0.3> // end point 1.1, < 0 , 3.1, 0.3> // control point
+ 
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -571,24 +602,24 @@ status collapsed
 
 \end_layout
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 #declare SplineCam = camera 
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
 
 \end_inset
 
- angle 80-clock*20 lookat <0, 2.5, 10> SplineTrans (MySpline, clock, y, 0.5, 0.0) 
+ angle 80-clock*20 lookat <0, 2.5, 10> SplineTrans (MySpline, clock, y, 0.5,
+ 0.0) 
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -599,7 +630,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -610,7 +641,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -622,23 +653,21 @@ end{lstlisting}
 
 \end_layout
 
-\begin_layout Standard
-
-
+\begin_layout Plain Layout
 \begin_inset Caption
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Kamerafahrt-Deklaration
 \end_layout
 
 \end_inset
 
+
 \end_layout
 
-\begin_layout Standard
-
-
-\begin_inset LatexCommand label
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
 name "Alg:CubicSpline"
 
 \end_inset
@@ -652,14 +681,24 @@ name "Alg:CubicSpline"
 \end_layout
 
 \begin_layout Subsection
-
 Astronaut
 \end_layout
 
 \begin_layout Standard
-
-Der Aufbau des Astronauten basiert auf einer vereinfachten Form eines Humanoiden. Insgesamt wurden nur zwei POV-Ray Grundfiguren verwendet um den Astronauten aufzubauen. Für den Kopf/Helm wurden zwei Kugeln vereinigt und mit verschiedenen Texturen versehen. Der Torso des Astronauten ist ebenfalls eine Kugel, die in x- und y-Richtung gestaucht wurde, um den Astronauten nicht zu dick aussehen zu lassen. Die Gliedmassen des Astronauten sind jeweils angepasste Zylinder. In der Endversion wurde der Astronaut zusätzlich mit zwei weiteren Kugeln erweitert, die als Schultern dienen und den Astronauten etwas hübscher aussehen lassen. Als Haupttexture wurde ein weiteres Bild verwendet (siehe Abbildung 
-\begin_inset LatexCommand ref
+Der Aufbau des Astronauten basiert auf einer vereinfachten Form eines Humanoiden.
+ Insgesamt wurden nur zwei POV-Ray Grundfiguren verwendet, um den Astronauten
+ aufzubauen.
+ Für den Kopf/Helm wurden zwei Kugeln vereinigt und mit verschiedenen Texturen
+ versehen.
+ Der Torso des Astronauten ist ebenfalls eine Kugel, die in x- und y-Richtung
+ gestaucht wurde, um den Astronauten nicht zu dick aussehen zu lassen.
+ Die Gliedmaßen des Astronauten sind jeweils angepasste Zylinder.
+ In der Endversion wurde der Astronaut zusätzlich mit zwei weiteren Kugeln
+ erweitert, die als Schultern dienen und den Astronauten etwas hübscher
+ aussehen lassen.
+ Als Haupttextur wurde ein weiteres Bild verwendet (siehe Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
 reference "Fig:TextureAstro"
 
 \end_inset
@@ -668,19 +707,14 @@ reference "Fig:TextureAstro"
 \end_layout
 
 \begin_layout Standard
-
-
 \begin_inset Float figure
 wide false
 sideways false
 status open
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 \align center
-
-
-\begin_inset Graphics 
+\begin_inset Graphics
 	filename mp2.png
 	height 25theight%
 
@@ -689,23 +723,21 @@ status open
  
 \end_layout
 
-\begin_layout Standard
-
-
+\begin_layout Plain Layout
 \begin_inset Caption
 
-\begin_layout Standard
-Texture des Astronauten
+\begin_layout Plain Layout
+Textur des Astronauten
 \end_layout
 
 \end_inset
 
+
 \end_layout
 
-\begin_layout Standard
-
-
-\begin_inset LatexCommand label
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
 name "Fig:TextureAstro"
 
 \end_inset
@@ -719,37 +751,39 @@ name "Fig:TextureAstro"
 \end_layout
 
 \begin_layout Subsubsection
-
 Bewegungsmodell
 \end_layout
 
 \begin_layout Standard
-
-Die Bewegungen vom Astronauten wurden schlicht gehalten. Die Bewegung der Gliedmassen wurde direkt im Astronauten implementiert. Dafür wurde die POV-Ray eigene Clock-Funktion mit einer Sinusfunktion verknüpft und an das Bewegungsmodell eines humanoiden angepasst. Das heißt die Gliedmassen bewegen sich immer abwechselnd, rechter Arm und linkes Bein bzw. linker Arm und rechtes Bein vorwärts (siehe Listing 
-\begin_inset LatexCommand ref
+Die Bewegungen des Astronauten wurden schlicht gehalten.
+ Die Bewegung der Gliedmaßen wurde direkt im Astronauten implementiert.
+ Dafür wurde die POV-Ray eigene Clock-Funktion mit einer Sinusfunktion verknüpft
+ und an das Bewegungsmodell eines humanoiden angepasst.
+ Das heißt, die Gliedmassen bewegen sich immer abwechselnd, rechter Arm
+ und linkes Bein bzw.
+ linker Arm und rechtes Bein vorwärts (siehe Listing 
+\begin_inset CommandInset ref
+LatexCommand ref
 reference "Alg:AstroBewegung"
 
 \end_inset
 
-). Damit bewegen sich jedoch nur die Gliedmassen des Astronauten, die globale Bewegung wurde dann mit Hilfe von translate in POV-Ray umgesetzt.
+).
+ Damit bewegen sich jedoch nur die Gliedmassen des Astronauten, die globale
+ Bewegung wurde dann mit Hilfe von Translation (translate) in POV-Ray umgesetzt.
 \end_layout
 
 \begin_layout Standard
-
-
 \begin_inset Float algorithm
 wide false
 sideways false
 status open
 
-
-\begin_layout Standard
-
-
+\begin_layout Plain Layout
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -762,7 +796,7 @@ begin{lstlisting}
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -773,7 +807,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -784,7 +818,7 @@ imagemap
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -795,7 +829,7 @@ png "images/mp2.png"
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -806,7 +840,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -817,7 +851,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -828,7 +862,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -839,7 +873,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -850,7 +884,7 @@ imagemap
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -861,7 +895,7 @@ png "images/mp2.png"
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -872,7 +906,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -883,7 +917,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -894,7 +928,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -905,7 +939,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -916,7 +950,7 @@ imagemap
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -927,7 +961,7 @@ png "images/mp2.png"
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -938,7 +972,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -949,7 +983,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -960,7 +994,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -971,7 +1005,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -982,7 +1016,7 @@ imagemap
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -993,7 +1027,7 @@ png "images/mp2.png"
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -1004,7 +1038,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -1015,7 +1049,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -1026,7 +1060,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -1038,18 +1072,18 @@ end{lstlisting}
  
 \begin_inset Caption
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Bewegungsmodell des Astronauten
 \end_layout
 
 \end_inset
 
+
 \end_layout
 
-\begin_layout Standard
-
-
-\begin_inset LatexCommand label
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
 name "Alg:AstroBewegung"
 
 \end_inset
@@ -1063,46 +1097,51 @@ name "Alg:AstroBewegung"
 \end_layout
 
 \begin_layout Subsection
-
 Ballpeople
 \end_layout
 
 \begin_layout Standard
-
-Die Ballpeople basieren alle auf dem gleichen Aufbau und zwar eines einfachen Balles. Im Video wurden dann viele dieser Bälle mit verschiedener Skalierung eingesetzt, um die Szenen interessanter aussehen zu lassen und der düsteren Umgebung mehr Leben zu verleihen.
+Die Ballpeople basieren alle auf dem gleichen Aufbau und zwar dem eines
+ einfachen Balles.
+ Im Video wurden dann viele dieser Bälle mit verschiedener Skalierung eingesetzt
+, um die Szenen interessanter aussehen zu lassen und der düsteren Umgebung
+ mehr Leben zu verleihen.
 \end_layout
 
 \begin_layout Subsubsection
-
 Bewegungsmodell
 \end_layout
 
 \begin_layout Standard
+Bei den Ballpeople wurden, abhängig von der Szene, verschiedene Bewegungen
+ eingesetzt.
+\begin_inset Newline newline
+\end_inset
 
-Bei den Ballpeople wurden abhängig von der Szene verschiedene Bewegungen eingesetzt.
-\newline
- Als erstes können die Ballpeople sich dehnen und stauchen. Dafür wurde bei der Skalierung eine von der Clock abhängige Sinusfunktion eingesetzt, Listing 
-\begin_inset LatexCommand ref
+ Als erstes können die Ballpeople sich dehnen und stauchen.
+ Dafür wurde bei der Skalierung eine von der Clock abhängige Sinusfunktion
+ eingesetzt, Listing 
+\begin_inset CommandInset ref
+LatexCommand ref
 reference "Alg:Ball1"
 
 \end_inset
 
 .
-\newline
+\begin_inset Newline newline
+\end_inset
+
  
 \begin_inset Float algorithm
 wide false
 sideways false
 status open
 
-
-\begin_layout Standard
-
-
+\begin_layout Plain Layout
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -1115,7 +1154,7 @@ begin{lstlisting}
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
@@ -1126,7 +1165,7 @@ ball scale 0.25 scale y*sin(40+40*(clock-1))+2 translate <0, 0, 25>
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -1137,7 +1176,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -1149,18 +1188,18 @@ end{lstlisting}
  
 \begin_inset Caption
 
-\begin_layout Standard
-Dehnung und Stauchung bei den Ballpeople
+\begin_layout Plain Layout
+Dehnung und Stauchung der Ballpeople
 \end_layout
 
 \end_inset
 
+
 \end_layout
 
-\begin_layout Standard
-
-
-\begin_inset LatexCommand label
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
 name "Alg:Ball1"
 
 \end_inset
@@ -1175,29 +1214,31 @@ name "Alg:Ball1"
 
 \begin_layout Standard
 \noindent
-
-Als zweite Bewegungsart wurde das Springen verwendet, wenn sich die Ballpeople auf die Rakete zu bewegen. Dazu wurde die translate-Funktion von POV-Ray in der y-Ebenen angepasst, Listing 
-\begin_inset LatexCommand ref
+Als zweite Bewegungsart wurde das Springen verwendet, wenn sich die Ballpeople
+ auf die Rakete zubewegen.
+ Dazu wurde die translate-Funktion von POV-Ray in der y-Ebenen angepasst,
+ Listing 
+\begin_inset CommandInset ref
+LatexCommand ref
 reference "Alg:Ball2"
 
 \end_inset
 
 .
-\newline
+\begin_inset Newline newline
+\end_inset
+
  
 \begin_inset Float algorithm
 wide false
 sideways false
 status open
 
-
-\begin_layout Standard
-
-
+\begin_layout Plain Layout
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -1210,18 +1251,19 @@ begin{lstlisting}
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
 
 \end_inset
 
-ball scale 0.25 scale y*sin(80-clock*40)+2 translate <0, sin(80-clock*40)+1, 25-clock*20>
+ball scale 0.25 scale y*sin(80-clock*40)+2 translate <0, sin(80-clock*40)+1,
+ 25-clock*20>
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -1232,7 +1274,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -1244,18 +1286,18 @@ end{lstlisting}
  
 \begin_inset Caption
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Springbewegung der Ballpeople
 \end_layout
 
 \end_inset
 
+
 \end_layout
 
-\begin_layout Standard
-
-
-\begin_inset LatexCommand label
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
 name "Alg:Ball2"
 
 \end_inset
@@ -1270,33 +1312,35 @@ name "Alg:Ball2"
 
 \begin_layout Standard
 \noindent
-
-Und als letztes Bewegungsmodel wurde eine verlangsamte Springbewegung eingesetzt. Dieses Modell wurde der Physik entnommen, hier wurde eine Funktion für eine gedämpfte Schwingung (Formel: 
-\begin_inset Formula $\sin (a) \cdot e^{-b}$
+Und als letztes Bewegungsmodell wurde eine verlangsamte Springbewegung eingesetz
+t.
+ Dieses Modell wurde der Physik entnommen, hier wurde eine Funktion für
+ eine gedämpfte Schwingung (Formel: 
+\begin_inset Formula $\sin(a)\cdot e^{-b}$
 \end_inset
 
 ) benutzt, Listing 
-\begin_inset LatexCommand ref
+\begin_inset CommandInset ref
+LatexCommand ref
 reference "Alg:Ball3"
 
 \end_inset
 
 .
-\newline
+\begin_inset Newline newline
+\end_inset
+
  
 \begin_inset Float algorithm
 wide false
 sideways false
 status open
 
-
-\begin_layout Standard
-
-
+\begin_layout Plain Layout
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -1309,18 +1353,19 @@ begin{lstlisting}
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 {
 \end_layout
 
 \end_inset
 
-ball scale 0.25-clock*0.24 scale y*sin(40+clock*40)*exp(-clock*2)+2-clock translate <0, sin(40+clock*40)*exp(-clock*2)+1-clock, 5>
+ball scale 0.25-clock*0.24 scale y*sin(40+clock*40)*exp(-clock*2)+2-clock
+ translate <0, sin(40+clock*40)*exp(-clock*2)+1-clock, 5>
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -1331,7 +1376,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -1343,18 +1388,18 @@ end{lstlisting}
  
 \begin_inset Caption
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Gedämpfte Springbewegung der Ballpeople
 \end_layout
 
 \end_inset
 
+
 \end_layout
 
-\begin_layout Standard
-
-
-\begin_inset LatexCommand label
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
 name "Alg:Ball3"
 
 \end_inset
@@ -1368,44 +1413,42 @@ name "Alg:Ball3"
 \end_layout
 
 \begin_layout Subsection
-
 Szenerie
 \end_layout
 
 \begin_layout Standard
-
-Als Landschaft bzw. Szenerie wurde eine karge und ausschließlich glatte Planetenoberfläche gewählt. Die massgebliche Begründung liegt in der sonst schlicht unmöglichen evolutionären Entwicklung der Planeten-Bewohner (Ballpeople). Bälle rollen/springen nun einmal am Besten auf glatten Oberflächen ohne Hindernissen und konnten sich demnach an die Spitze der Evolution setzen. Auf dem Planeten der Ballpeople herrscht der Darwinismus und kein Kreationismus.
+Als Landschaft bzw.
+ Szenerie wurde eine karge und ausschließlich glatte Planetenoberfläche
+ gewählt.
+ Die maßgebliche Begründung liegt in der sonst schlicht unmöglichen evolutionäre
+n Entwicklung der Planeten-Bewohner (Ballpeople).
+ Bälle rollen/springen nun einmal am Besten auf glatten Oberflächen ohne
+ Hindernisse und konnten sich demnach an die Spitze der Evolution setzen.
+ Auf dem Planeten der Ballpeople herrscht der Darwinismus und kein Kreationismus.
 \end_layout
 
 \begin_layout Section
-
 Verwendete Werkzeuge
 \end_layout
 
 \begin_layout Standard
-
-
 \begin_inset Float table
 wide false
 sideways false
 status open
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 \align center
-
-
-\begin_inset Tabular 
+\begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="2">
 <features>
-<column alignment="center" valignment="top" leftline="true" rightline="true">
-<column alignment="center" valignment="top" rightline="true">
-<row topline="true" bottomline="true">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 Name 
 \end_layout
 
@@ -1414,20 +1457,18 @@ Name
 <cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 Zweck
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 POV-Ray v3.7 RC2 
 \end_layout
 
@@ -1436,20 +1477,18 @@ POV-Ray v3.7 RC2
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 Ray-Tracer
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 GarageBand 
 \end_layout
 
@@ -1458,20 +1497,18 @@ GarageBand
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 Vertonung
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true" bottomline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 iMovie 
 \end_layout
 
@@ -1480,8 +1517,7 @@ iMovie
 <cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 Schnittprogramm
 \end_layout
 
@@ -1495,23 +1531,21 @@ Schnittprogramm
 
 \end_layout
 
-\begin_layout Standard
-
-
+\begin_layout Plain Layout
 \begin_inset Caption
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Verwendete Werkzeuge
 \end_layout
 
 \end_inset
 
+
 \end_layout
 
-\begin_layout Standard
-
-
-\begin_inset LatexCommand label
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
 name "Tab:Tools"
 
 \end_inset
@@ -1525,38 +1559,78 @@ name "Tab:Tools"
 \end_layout
 
 \begin_layout Section
-
 Nachbearbeitung mit iMovie und GarageBand
 \end_layout
 
 \begin_layout Standard
+Nachdem wir unsere gewünschten Szenen auf verschiedenen Rechnern in unserer
+ Wunschauflösung von 1280 * 1024 gerendert hatten, machten wir uns an die
+ Nachbearbeitung mithilfe der Macrechner des Informatikums.
+ Zum schneiden und einfügen von Toneffekten haben wir iMovie verwendet und
+ die Hintergrundmusik haben wir mit GarageBand eingespielt.
+ Die Hintergrundmusik ist eine 30 Sekunden lange Abfolge von Klängen aus
+ einem Syntheziser, die wir dann wiederholen, bis der Film endet.
+ Ziel der Musik ist es eine ominöse Grundstimmung zu erzeugen.
+\begin_inset Newline newline
+\end_inset
 
-Nachdem wir unsere gewünschten Szenen auf verschiedenen Rechnern in unserer Wunschauflösung von 1280 * 1024 gerendert hatten, machten wir uns an die Nachbearbeitung mithilfe der Macrechner des Informatikums. Zum schneiden und einfügen von Toneffekten haben wir iMovie verwendet und die Hintergrundmusik haben wir mit GarageBand eingespielt. Die Hintergrundmusik ist eine 30 Sekunden lange Abfolge von Klängen aus einem Syntheziser, die wir dann wiederholen, bis der Film endet. Ziel der Musik ist es eine ominöse Grundstimmung zu erzeugen.
-\newline
- In iMovie haben wir zunächst alle unsere gerenderten Szenen hintereinander gehängt und an passenden Stellen vorgefertigte Übergänge eingebaut. Szenen die zu lang waren haben wir gekürzt, wie das einsteigen des Astronauten in die Rakete. Soweit es uns möglich war haben wir auch Geräusche eingefügt. Allerdings war es sehr schwer passnde Soundeffekte zu finden und deshalb sind nur Teile des Filmes mit Geräuschen versehen, beispielsweise das Öffnen der Rampe und das Blubbern der Ballpeople. Die letzte Szene, das Umfallen der Rakete haben wir mit iMovie verschnellert, damit es realischtischer aussieht. Wir enden auf einem Standbild der zerstörten Raket.
-\newline
- Des Weiteren haben wir einen Titel eingeblendet und einen kurzen Abspann eingefügt.
+ In iMovie haben wir zunächst alle unsere gerenderten Szenen hintereinander
+ gehängt und an passenden Stellen vorgefertigte Übergänge eingebaut.
+ Szenen die zu lang waren haben wir gekürzt, wie das einsteigen des Astronauten
+ in die Rakete.
+ Soweit es uns möglich war haben wir auch Geräusche eingefügt.
+ Allerdings war es sehr schwer passende Soundeffekte zu finden und deshalb
+ sind nur Teile des Filmes mit Geräuschen versehen, beispielsweise das Öffnen
+ der Rampe und das Blubbern der Ballpeople.
+ Die letzte Szene, das Umfallen der Rakete haben wir mit iMovie verschnellert,
+ damit es realischtischer aussieht.
+ Wir enden auf einem Standbild der zerstörten Raket.
+\begin_inset Newline newline
+\end_inset
+
+ Des Weiteren haben wir einen Titel eingeblendet und einen kurzen Abspann
+ eingefügt.
 \end_layout
 
 \begin_layout Section
-
 Anmerkungen zum Rendering auf den Blade-Servern des Rechenzentrums
 \end_layout
 
 \begin_layout Standard
+Die Mehrzahl der Szenen wurde auf den durch das Informatik-Rechenzentrum
+ zur Verfügung gestellten Blade-Servern gerendert.
+ Dabei variierte die benötigte Rechenzeit stark in Abhängigkeit vom Umfang
+ der Szenen.
+ Die einfachen Szenen zu Beginn des Film konnten in jeweils unter einer
+ Stunde berechnet werden.
+ Für die umfangreichen Szenen am Ende benötigten die Blade-Server akkumuliert
+ hingegen mehr als einen Tag.
+\begin_inset Newline newline
+\end_inset
 
-Die Mehrzahl der Szenen wurde auf den durch das Informatik-Rechenzentrum zur Verfügung gestellten Blade-Servern gerendert. Dabei variierte die benötigte Rechen-Zeit stark in Abhängigkeit vom Umfang der Szenen. Die einfachen Szenen zu Beginn des Film konnten in jeweils unter einer Stunde berechnet werden. Für die umfangreichen Szenen am Ende benötigten die Blade-Server akkumuliert hingegen mehr als einen Tag.
-\newline
- Für zukünftige Projekte sei die Anmerkung erlaubt, dass die bereitgestellte POV-Ray Version entweder auf den aktuellen Stand gehalten wird oder ausgiebig getestet wird. Die vorinstallierte Version POV-Ray v3.7 beta 41 zeigt einen reproduzierbaren Fehler in Zusammenhang mit einer älteren Boost-Bibliothek, was die Nutzung unmöglich machte. Daher musste eine eigene, aus dem aktuellen Release-Candidate und gegen eine neue Boost-Version statisch gelinkte Version selbst übersetzt werden und auf die Blade-Server hochgeladen werden. Damit war dann eine ununterbrochene Berechnung ohne Segmentation Fault aller Szenen möglich. Ferner wäre es in den Tagen vor der Abgabe wunschenswert, wenn Reboots der Blade-Server an die Job-Inhaber zum Zeitpunkt der Reboots mitgeteilt werden. Ansonsten kann es geschehen, dass ein abgebrochenes Rendering für mehrere Stunden unbemerkt bleibt.
+ Für zukünftige Projekte sei die Anmerkung erlaubt, dass die bereitgestellte
+ POV-Ray Version entweder auf den aktuellen Stand gehalten wird oder ausgiebig
+ getestet wird.
+ Die vorinstallierte Version POV-Ray v3.7 beta 41 zeigt einen reproduzierbaren
+ Fehler in Zusammenhang mit einer älteren Boost-Bibliothek, was die Nutzung
+ unmöglich machte.
+ Daher musste eine eigene, aus dem aktuellen Release-Candidate und gegen
+ eine neue Boost-Version statisch gelinkte Version selbst übersetzt werden
+ und auf die Blade-Server hochgeladen werden.
+ Damit war dann eine ununterbrochene Berechnung ohne Segmentation Fault
+ aller Szenen möglich.
+ Ferner wäre es in den Tagen vor der Abgabe wünschenswert, wenn Reboots
+ der Blade-Server an die Job-Inhaber zum Zeitpunkt der Reboots mitgeteilt
+ werden.
+ Ansonsten kann es geschehen, dass ein abgebrochenes Rendering für mehrere
+ Stunden unbemerkt bleibt.
 \end_layout
 
 \begin_layout Standard
-
-
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -1566,7 +1640,8 @@ bibliographystyle{plain}
 \end_inset
 
  
-\begin_inset LatexCommand bibtex
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
 bibfiles "bibtex"
 options "plain"
 
